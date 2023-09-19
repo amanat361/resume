@@ -118,7 +118,7 @@ function Education() {
 function Footer() {
     return (
         <div className="flex justify-between">
-            <p className="font-bold">Looking forward to the unique connections <span className="text-emerald-600">TechCrunch Disrupt</span> brings. Let's turn a brief introduction into lasting collaboration.</p>
+            <p className="font-bold">Looking forward to the unique connections <span className="text-emerald-600">TechCrunch Disrupt</span> brings. Let us turn a brief introduction into lasting collaboration.</p>
             <Icon brand="techcrunch" />
         </div>
     );

@@ -76,12 +76,12 @@ function Contact() {
 function Experience() {
     return (
         <div className="flex flex-col gap-4">
-            <Project image="backend.png" />
+            <Project image="firewave.png" />
             <p className="font-bold text-xl">Founder of Firewave</p>
             <ul>
-                <li>* Optimized server infrastructure</li>
-                <li>* Implemented continuous integration</li>
-                <li>* Managed and scaled cloud resources</li>
+                <li>* Solved real world problems with AI</li>
+                <li>* Mentored engineers on new frameworks</li>
+                <li>* Managed large projects and clients</li>
             </ul>
             <Project image="teaching.jpg" />
             <p className="font-bold text-xl">Lead Instructor at theCoderSchool</p>
@@ -100,16 +100,16 @@ function Education() {
             <Project image="dvc.jpg" />
             <p className="font-bold text-xl">Associates in Computer Science</p>
             <ul>
-                <li>* Honors student with 4.0 GPA</li>
-                <li>* Member of Pi Theta Kappa Honors Society</li>
-                <li>* Member of Google Developers Club</li>
+                <li>* Graduated in 2021 with Honors</li>
+                <li>* President of club with 20 members</li>
+                <li>* Teacher Assistant for OOP course</li>
             </ul>
-            <Project image="aws.jpg" />
-            <p className="font-bold text-xl">AWS Certified Cloud Practitioner</p>
+            <Project image="fullstack.webp" />
+            <p className="font-bold text-xl">Full Stack Freelance</p>
             <ul>
-                <li>* Containerized continuous integration</li>
-                <li>* Customized SMTP email server</li>
-                <li>* Cloud functions with Lambda</li>
+                <li>* Over 10k tokens from Replit bounties</li>
+                <li>* Rebuild school admin dashboard with AI</li>
+                <li>* Created landing pages for businesses</li>
             </ul>
         </div>
     );
@@ -118,7 +118,7 @@ function Education() {
 function Footer() {
     return (
         <div className="flex justify-between">
-            <p className="font-bold">Looking forward to the unique connections <span className="text-emerald-600">TechCrunch Disrupt</span> brings. Let's turn a brief introduction into lasting collaboration.</p>
+            <p className="font-bold">Looking forward to the unique connections <span className="text-emerald-600">TechCrunch Disrupt</span> brings. Let us turn a brief introduction into lasting collaboration.</p>
             <Icon brand="techcrunch" />
         </div>
     );
